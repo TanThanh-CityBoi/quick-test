@@ -1,1 +1,3 @@
 # ThermalPrinter
+
+basic printer intergration
