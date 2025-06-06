@@ -1,3 +1,3 @@
-# ThermalPrinter
+# Quick Test repo
 
-basic printer intergration
+This is a quick test repo for testing purposes.
