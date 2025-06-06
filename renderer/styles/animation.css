@@ -1,0 +1,160 @@
+@keyframes cart-item-show-animation {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes cart-show-animation {
+    0% {
+      margin-left: 50%;
+      opacity: 0;
+    }
+    100% {
+      margin-left: 0%;
+      opacity: 1;
+    }
+  }
+  @keyframes cart-hide-animation {
+    0% {
+      grid-column: span 2 / span 2;
+      margin-left: 0%;
+      opacity: 1;
+    }
+    100% {
+      grid-column: span 2 / span 2;
+      margin-left: 50%;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes cart-header-show-animation {
+    0% {
+      margin-left: 50%;
+      grid-column: span 2 / span 2;
+    }
+    100% {
+      margin-left: 0%;
+      grid-column: span 2 / span 2;
+    }
+  }
+  
+  @keyframes cart-header-hide-animation {
+    0% {
+      margin-left: 0;
+      grid-column: span 2 / span 2;
+      
+    }
+    100% {
+      margin-left: 50%;
+      grid-column: span 2 / span 2;
+    }
+  }
+  
+  @keyframes prod-header-show-animation {
+    0% {
+      grid-column: span 3 / span 3;
+    }
+    100% {
+      grid-column: span 3 / span 3;
+    }
+  }
+  
+  
+  @keyframes prod-card-animation {
+    0% {
+      transform: scale(0.7);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes page-dot-animation {
+    0% {
+      width: 80px;
+    }
+    100% {
+      width: 120px;
+    }
+  }
+  
+  @keyframes modal-show-animation {
+    0% {
+      transform: scale(0.3)
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes lang-show-animation {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+  
+  @keyframes lang-hide-animation {
+    0% {
+      width: 50%;
+    }
+    100% {
+      width: 0%;
+    }
+  }
+  
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .cart-item-show {
+      animation: cart-item-show-animation 0.6s;
+    }
+    .cart-show {
+      animation: cart-show-animation 0.6s;
+      grid-column: span 2 / span 2;
+    }
+    .cart-hide {
+      animation: cart-hide-animation 0.6s;
+      display: none;
+    }
+    .cart-header-show {
+      animation: cart-header-show-animation 0.6s;
+      grid-column: span 2 / span 2;
+    }
+    .cart-header-hide {
+      animation: cart-header-hide-animation 0.6s;
+      grid-column: span 1 / span 1;
+    }
+    .prod-header-show {
+      animation: prod-header-show-animation 0.6s;
+      grid-column: span 4 / span 4;
+    }
+    .prod-card-add {
+      animation: prod-card-animation 0.7s;
+    }
+    .page-dot{
+      animation: page-dot-animation 0.5s;
+    }
+    .modal-show{
+      animation: modal-show-animation 0.5s;
+    }
+    .lang-show{
+      animation: lang-show-animation 0.5s;
+      width: 50%;
+    }
+    .lang-hide{
+      animation: lang-hide-animation 0.5s;
+      width: 0%;
+    }
+  }

@@ -1,0 +1,17 @@
+{
+    "include": ["lib/**/*.ts", "lib/**/*.d.ts"],
+    "compilerOptions": {
+        "target": "ES2017",
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "strictPropertyInitialization": false,
+        "skipLibCheck": true,
+        "declaration": true
+    },
+    "exclude": ["node_modules", "test"]
+}

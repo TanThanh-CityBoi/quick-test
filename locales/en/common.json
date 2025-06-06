@@ -1,0 +1,29 @@
+{
+    "title": "title-en",
+    "cart": {
+        "btn_payment": "Payment",
+        "cart_item": {
+            "price": "Price",
+            "amount": "Amount"
+        }
+    },
+    "modal": {
+        "base_modal": {
+            "toggle_button_content": "Open modal",
+            "modal_title": "Modal title",
+            "modal_content": "Modal content",
+            "cancel_button": "Cancel",
+            "confirm_button": "Confirm"
+        }
+    },
+    "message": {
+        "max_cart_items": "You can only select up to {{max_cart_items}} items",
+        "empty_cart": "Cart is empty",
+        "payment_success": "Payment Success"
+    },
+    "button": {
+        "close_title": "Close",
+        "logout_title": "Logout",
+        "cancel_title": "Cancel"
+    }
+}

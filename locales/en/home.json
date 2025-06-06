@@ -1,0 +1,13 @@
+{
+    "title": "Nextron app",
+    "cart": {
+        "order_title": "Cart ({{amount}} items)",
+        "confirm_title": "Payment Confirm",
+        "payment_title": "Payment",
+        "cart_total": "Total bill",
+        "payment_method": "Select a payment method"
+    },
+    "product_list": {
+        "title": "Product List"
+    }
+}

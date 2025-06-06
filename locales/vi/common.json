@@ -1,0 +1,29 @@
+{
+    "title": "title-vi",
+    "cart": {
+        "btn_payment": "Thanh toán",
+        "cart_item": {
+            "price": "Đơn giá",
+            "amount": "Số lượng"
+        }
+    },
+    "modal": {
+        "base_modal": {
+            "toggle_button_content": "Mở modal",
+            "modal_title": "Tiêu đề",
+            "modal_content": "Nội dung",
+            "cancel_button": "Hủy",
+            "confirm_button": "Xác Nhận"
+        }
+    },
+    "message": {
+        "max_cart_items": "Bạn chỉ có thể chọn tối đa {{max_cart_items}} sản phẩm",
+        "empty_cart": "Giỏ hàng trống",
+        "payment_success": "Thanh toán thành công"
+    },
+    "button": {
+        "close_title": "Đóng",
+        "logout_title": "Đăng xuất",
+        "cancel_title": "Hủy"
+    }
+}
